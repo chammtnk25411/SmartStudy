@@ -1,0 +1,954 @@
+{
+    "datasets": [
+        {
+            "PlanId": "p1",
+            "PlanName": "Ôn tập đại số",
+            "PlanTopic": "Toán",
+            "Date": "15/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "npmai95"
+        },
+        {
+            "PlanId": "p2",
+            "PlanName": "Luyện nghe cơ bản",
+            "PlanTopic": "Tiếng Anh",
+            "Date": "16/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "npmai95"
+        },
+        {
+            "PlanId": "p3",
+            "PlanName": "Code bài Python cơ bản",
+            "PlanTopic": "Lập Trình",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "npmai95"
+        },
+        {
+            "PlanId": "p4",
+            "PlanName": "Phân tích bài thơ",
+            "PlanTopic": "Ngữ Văn",
+            "Date": "17/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "đahanh69"
+        },
+        {
+            "PlanId": "p5",
+            "PlanName": "Ôn tập lịch sử Việt Nam",
+            "PlanTopic": "Lịch Sử",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "đahanh69"
+        },
+        {
+            "PlanId": "p6",
+            "PlanName": "Học bản đồ thế giới",
+            "PlanTopic": "Địa Lý",
+            "Date": "19/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "đahanh69"
+        },
+        {
+            "PlanId": "p7",
+            "PlanName": "Giải bài tập lực học",
+            "PlanTopic": "Vật Lý",
+            "Date": "16/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "ntlan99"
+        },
+        {
+            "PlanId": "p8",
+            "PlanName": "Học phản ứng hóa học",
+            "PlanTopic": "Hóa Học",
+            "Date": "17/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "ntlan99"
+        },
+        {
+            "PlanId": "p9",
+            "PlanName": "Ôn tập sinh học",
+            "PlanTopic": "Sinh Học",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "ntlan99"
+        },
+        {
+            "PlanId": "p10",
+            "PlanName": "Thực hành Word",
+            "PlanTopic": "Tin học",
+            "Date": "15/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "dttrinh85"
+        },
+        {
+            "PlanId": "p11",
+            "PlanName": "Code OOP Python",
+            "PlanTopic": "Lập Trình",
+            "Date": "17/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "dttrinh85"
+        },
+        {
+            "PlanId": "p12",
+            "PlanName": "Tìm hiểu AI cơ bản",
+            "PlanTopic": "AI",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "dttrinh85"
+        },
+        {
+            "PlanId": "p13",
+            "PlanName": "Học marketing online",
+            "PlanTopic": "Marketing",
+            "Date": "16/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "ntchau72"
+        },
+        {
+            "PlanId": "p14",
+            "PlanName": "Luyện giao tiếp",
+            "PlanTopic": "Kỹ năng mềm",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "ntchau72"
+        },
+        {
+            "PlanId": "p15",
+            "PlanName": "Thiết kế banner",
+            "PlanTopic": "Thiết kế",
+            "Date": "19/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "ntchau72"
+        },
+        {
+            "PlanId": "p16",
+            "PlanName": "Ôn hình học",
+            "PlanTopic": "Toán",
+            "Date": "14/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "pkgiang95"
+        },
+        {
+            "PlanId": "p17",
+            "PlanName": "Giải bài tập điện",
+            "PlanTopic": "Vật Lý",
+            "Date": "17/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "pkgiang95"
+        },
+        {
+            "PlanId": "p18",
+            "PlanName": "Ôn hóa hữu cơ",
+            "PlanTopic": "Hóa Học",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "pkgiang95"
+        },
+        {
+            "PlanId": "p19",
+            "PlanName": "Ôn sinh học tế bào",
+            "PlanTopic": "Sinh Học",
+            "Date": "16/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "nhtrang11"
+        },
+        {
+            "PlanId": "p20",
+            "PlanName": "Học địa lý tự nhiên",
+            "PlanTopic": "Địa Lý",
+            "Date": "17/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "nhtrang11"
+        },
+        {
+            "PlanId": "p21",
+            "PlanName": "Ôn lịch sử thế giới",
+            "PlanTopic": "Lịch Sử",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "nhtrang11"
+        },
+        {
+            "PlanId": "p22",
+            "PlanName": "Code web cơ bản",
+            "PlanTopic": "Lập Trình",
+            "Date": "15/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "đthai73"
+        },
+        {
+            "PlanId": "p23",
+            "PlanName": "Tìm hiểu AI nâng cao",
+            "PlanTopic": "AI",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "đthai73"
+        },
+        {
+            "PlanId": "p24",
+            "PlanName": "Phân tích dữ liệu",
+            "PlanTopic": "Data",
+            "Date": "19/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "đthai73"
+        },
+        {
+            "PlanId": "p25",
+            "PlanName": "Soạn bài văn",
+            "PlanTopic": "Ngữ Văn",
+            "Date": "16/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "hglan35"
+        },
+        {
+            "PlanId": "p26",
+            "PlanName": "Học từ vựng mới",
+            "PlanTopic": "Tiếng Anh",
+            "Date": "17/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "hglan35"
+        },
+        {
+            "PlanId": "p27",
+            "PlanName": "Rèn kỹ năng mềm",
+            "PlanTopic": "Kỹ năng mềm",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "hglan35"
+        },
+        {
+            "PlanId": "p28",
+            "PlanName": "Thiết kế logo",
+            "PlanTopic": "Thiết kế",
+            "Date": "15/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "hpphuong58"
+        },
+        {
+            "PlanId": "p29",
+            "PlanName": "Học chiến lược marketing",
+            "PlanTopic": "Marketing",
+            "Date": "17/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "hpphuong58"
+        },
+        {
+            "PlanId": "p30",
+            "PlanName": "Xử lý dữ liệu Excel",
+            "PlanTopic": "Data",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "hpphuong58"
+        },
+        {
+            "PlanId": "p31",
+            "PlanName": "Ôn công thức toán",
+            "PlanTopic": "Toán",
+            "Date": "14/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "tthanh25"
+        },
+        {
+            "PlanId": "p32",
+            "PlanName": "Thực hành Excel",
+            "PlanTopic": "Tin học",
+            "Date": "17/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "tthanh25"
+        },
+        {
+            "PlanId": "p33",
+            "PlanName": "Học AI cơ bản",
+            "PlanTopic": "AI",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "tthanh25"
+        },
+        {
+            "PlanId": "p34",
+            "PlanName": "Ôn lịch sử VN",
+            "PlanTopic": "Lịch Sử",
+            "Date": "15/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "hmphuong15"
+        },
+        {
+            "PlanId": "p35",
+            "PlanName": "Học địa lý châu Á",
+            "PlanTopic": "Địa Lý",
+            "Date": "17/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "hmphuong15"
+        },
+        {
+            "PlanId": "p36",
+            "PlanName": "Phân tích văn bản",
+            "PlanTopic": "Ngữ Văn",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "hmphuong15"
+        },
+        {
+            "PlanId": "p37",
+            "PlanName": "Ôn hóa vô cơ",
+            "PlanTopic": "Hóa Học",
+            "Date": "16/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "phgiang41"
+        },
+        {
+            "PlanId": "p38",
+            "PlanName": "Ôn sinh học",
+            "PlanTopic": "Sinh Học",
+            "Date": "17/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "phgiang41"
+        },
+        {
+            "PlanId": "p39",
+            "PlanName": "Giải bài tập vật lý",
+            "PlanTopic": "Vật Lý",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "phgiang41"
+        },
+        {
+            "PlanId": "p40",
+            "PlanName": "Học marketing căn bản",
+            "PlanTopic": "Marketing",
+            "Date": "15/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "ptphuong83"
+        },
+        {
+            "PlanId": "p41",
+            "PlanName": "Thiết kế slide",
+            "PlanTopic": "Thiết kế",
+            "Date": "17/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "ptphuong83"
+        },
+        {
+            "PlanId": "p42",
+            "PlanName": "Luyện kỹ năng thuyết trình",
+            "PlanTopic": "Kỹ năng mềm",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "ptphuong83"
+        },
+        {
+            "PlanId": "p43",
+            "PlanName": "Ôn toán nâng cao",
+            "PlanTopic": "Toán",
+            "Date": "14/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "bhhung23"
+        },
+        {
+            "PlanId": "p44",
+            "PlanName": "Code thuật toán",
+            "PlanTopic": "Lập Trình",
+            "Date": "17/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "bhhung23"
+        },
+        {
+            "PlanId": "p45",
+            "PlanName": "Học AI thực hành",
+            "PlanTopic": "AI",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "bhhung23"
+        },
+        {
+            "PlanId": "p46",
+            "PlanName": "Luyện phát âm",
+            "PlanTopic": "Tiếng Anh",
+            "Date": "15/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "hkhai63"
+        },
+        {
+            "PlanId": "p47",
+            "PlanName": "Ôn văn học",
+            "PlanTopic": "Ngữ Văn",
+            "Date": "17/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "hkhai63"
+        },
+        {
+            "PlanId": "p48",
+            "PlanName": "Ôn lịch sử",
+            "PlanTopic": "Lịch Sử",
+            "Date": "18/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "hkhai63"
+        },
+        {
+            "PlanId": "p49",
+            "PlanName": "Học địa lý Việt Nam",
+            "PlanTopic": "Địa Lý",
+            "Date": "16/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "htlinh14"
+        },
+        {
+            "PlanId": "p50",
+            "PlanName": "Ôn sinh học nâng cao",
+            "PlanTopic": "Sinh Học",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "htlinh14"
+        },
+        {
+            "PlanId": "p51",
+            "PlanName": "Phân tích dữ liệu cơ bản",
+            "PlanTopic": "Data",
+            "Date": "18/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "pkduy26"
+        },
+        {
+            "PlanId": "p52",
+            "PlanName": "Học Machine Learning",
+            "PlanTopic": "AI",
+            "Date": "19/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "pkduy26"
+        },
+        {
+            "PlanId": "p53",
+            "PlanName": "Thực hành Python nâng cao",
+            "PlanTopic": "Lập Trình",
+            "Date": "20/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "pkduy26"
+        },
+        {
+            "PlanId": "p54",
+            "PlanName": "Ôn tập hình học",
+            "PlanTopic": "Toán",
+            "Date": "17/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "btquan44"
+        },
+        {
+            "PlanId": "p55",
+            "PlanName": "Giải bài tập vật lý",
+            "PlanTopic": "Vật Lý",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "btquan44"
+        },
+        {
+            "PlanId": "p56",
+            "PlanName": "Ôn hóa hữu cơ",
+            "PlanTopic": "Hóa Học",
+            "Date": "19/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "btquan44"
+        },
+        {
+            "PlanId": "p57",
+            "PlanName": "Soạn bài văn nghị luận",
+            "PlanTopic": "Ngữ Văn",
+            "Date": "16/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "ltduy63"
+        },
+        {
+            "PlanId": "p58",
+            "PlanName": "Luyện viết tiếng Anh",
+            "PlanTopic": "Tiếng Anh",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "ltduy63"
+        },
+        {
+            "PlanId": "p59",
+            "PlanName": "Rèn kỹ năng thuyết trình",
+            "PlanTopic": "Kỹ năng mềm",
+            "Date": "19/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "ltduy63"
+        },
+        {
+            "PlanId": "p60",
+            "PlanName": "Học chiến lược marketing",
+            "PlanTopic": "Marketing",
+            "Date": "17/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "ptlan45"
+        },
+        {
+            "PlanId": "p61",
+            "PlanName": "Thiết kế poster quảng cáo",
+            "PlanTopic": "Thiết kế",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "ptlan45"
+        },
+        {
+            "PlanId": "p62",
+            "PlanName": "Phân tích dữ liệu khách hàng",
+            "PlanTopic": "Data",
+            "Date": "20/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "ptlan45"
+        },
+        {
+            "PlanId": "p63",
+            "PlanName": "Ôn công thức toán",
+            "PlanTopic": "Toán",
+            "Date": "15/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "dthung72"
+        },
+        {
+            "PlanId": "p64",
+            "PlanName": "Thực hành Excel nâng cao",
+            "PlanTopic": "Tin học",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "dthung72"
+        },
+        {
+            "PlanId": "p65",
+            "PlanName": "Code bài tập Python",
+            "PlanTopic": "Lập Trình",
+            "Date": "19/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "dthung72"
+        },
+        {
+            "PlanId": "p66",
+            "PlanName": "Ôn lịch sử thế giới",
+            "PlanTopic": "Lịch Sử",
+            "Date": "16/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "httrinh30"
+        },
+        {
+            "PlanId": "p67",
+            "PlanName": "Học địa lý Việt Nam",
+            "PlanTopic": "Địa Lý",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "httrinh30"
+        },
+        {
+            "PlanId": "p68",
+            "PlanName": "Phân tích tác phẩm văn học",
+            "PlanTopic": "Ngữ Văn",
+            "Date": "19/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "httrinh30"
+        },
+        {
+            "PlanId": "p69",
+            "PlanName": "Học AI cơ bản",
+            "PlanTopic": "AI",
+            "Date": "17/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "vphanh83"
+        },
+        {
+            "PlanId": "p70",
+            "PlanName": "Xử lý dữ liệu Python",
+            "PlanTopic": "Data",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "vphanh83"
+        },
+        {
+            "PlanId": "p71",
+            "PlanName": "Code web frontend",
+            "PlanTopic": "Lập Trình",
+            "Date": "20/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "vphanh83"
+        },
+        {
+            "PlanId": "p72",
+            "PlanName": "Ôn toán nâng cao",
+            "PlanTopic": "Toán",
+            "Date": "15/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "bhlong82"
+        },
+        {
+            "PlanId": "p73",
+            "PlanName": "Giải bài tập vật lý",
+            "PlanTopic": "Vật Lý",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "bhlong82"
+        },
+        {
+            "PlanId": "p74",
+            "PlanName": "Ôn hóa học cơ bản",
+            "PlanTopic": "Hóa Học",
+            "Date": "19/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "bhlong82"
+        },
+        {
+            "PlanId": "p75",
+            "PlanName": "Học sinh học tế bào",
+            "PlanTopic": "Sinh Học",
+            "Date": "16/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "hgchau72"
+        },
+        {
+            "PlanId": "p76",
+            "PlanName": "Ôn địa lý tự nhiên",
+            "PlanTopic": "Địa Lý",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "hgchau72"
+        },
+        {
+            "PlanId": "p77",
+            "PlanName": "Ôn lịch sử Việt Nam",
+            "PlanTopic": "Lịch Sử",
+            "Date": "19/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "hgchau72"
+        },
+        {
+            "PlanId": "p78",
+            "PlanName": "Luyện nghe tiếng Anh",
+            "PlanTopic": "Tiếng Anh",
+            "Date": "17/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "nkha66"
+        },
+        {
+            "PlanId": "p79",
+            "PlanName": "Soạn bài văn",
+            "PlanTopic": "Ngữ Văn",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "nkha66"
+        },
+        {
+            "PlanId": "p80",
+            "PlanName": "Rèn kỹ năng giao tiếp",
+            "PlanTopic": "Kỹ năng mềm",
+            "Date": "20/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "nkha66"
+        },
+        {
+            "PlanId": "p81",
+            "PlanName": "Thiết kế logo",
+            "PlanTopic": "Thiết kế",
+            "Date": "16/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "nkngan35"
+        },
+        {
+            "PlanId": "p82",
+            "PlanName": "Học marketing online",
+            "PlanTopic": "Marketing",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "nkngan35"
+        },
+        {
+            "PlanId": "p83",
+            "PlanName": "Phân tích dữ liệu cơ bản",
+            "PlanTopic": "Data",
+            "Date": "19/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "nkngan35"
+        },
+        {
+            "PlanId": "p84",
+            "PlanName": "Ôn toán cơ bản",
+            "PlanTopic": "Toán",
+            "Date": "15/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "btbao77"
+        },
+        {
+            "PlanId": "p85",
+            "PlanName": "Luyện viết tiếng Anh",
+            "PlanTopic": "Tiếng Anh",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "btbao77"
+        },
+        {
+            "PlanId": "p86",
+            "PlanName": "Soạn bài văn học",
+            "PlanTopic": "Ngữ Văn",
+            "Date": "19/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "btbao77"
+        },
+        {
+            "PlanId": "p87",
+            "PlanName": "Code backend cơ bản",
+            "PlanTopic": "Lập Trình",
+            "Date": "17/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "hqbao79"
+        },
+        {
+            "PlanId": "p88",
+            "PlanName": "Tìm hiểu AI nâng cao",
+            "PlanTopic": "AI",
+            "Date": "18/03/2026",
+            "StartTime": "20:00",
+            "EndTime": "20:50",
+            "TotalTime": 50,
+            "Username": "hqbao79"
+        },
+        {
+            "PlanId": "p89",
+            "PlanName": "Xử lý dữ liệu lớn",
+            "PlanTopic": "Data",
+            "Date": "20/03/2026",
+            "StartTime": "21:00",
+            "EndTime": "21:50",
+            "TotalTime": 50,
+            "Username": "hqbao79"
+        },
+        {
+            "PlanId": "p90",
+            "PlanName": "Ôn tập tổng hợp",
+            "PlanTopic": "Kỹ năng mềm",
+            "Date": "18/03/2026",
+            "StartTime": "19:00",
+            "EndTime": "19:50",
+            "TotalTime": 50,
+            "Username": "hqbao79"
+        },
+        {
+            "PlanId": "P91",
+            "PlanName": "ôn",
+            "PlanTopic": "Kỹ Thuật Lập Trình",
+            "Date": "21/03/2026",
+            "StartTime": "17:20",
+            "EndTime": "17:46",
+            "TotalTime": 26,
+            "Username": "hanh11"
+        },
+        {
+            "PlanId": "P92",
+            "PlanName": "ôn",
+            "PlanTopic": "Kỹ Thuật Lập Trình",
+            "Date": "21/03/2026",
+            "StartTime": "17:23",
+            "EndTime": "17:46",
+            "TotalTime": 23,
+            "Username": "hanh11"
+        },
+        {
+            "PlanId": "P93",
+            "PlanName": "Ôn tâph chương 5",
+            "PlanTopic": "Toán",
+            "Date": "24/03/2026",
+            "StartTime": "00:00",
+            "EndTime": "12:00",
+            "TotalTime": 720,
+            "Username": "ha"
+        },
+        {
+            "PlanId": "P94",
+            "PlanName": "làm báo cáo",
+            "PlanTopic": "Kỹ Thuật Lập Trình",
+            "Date": "26/03/2026",
+            "StartTime": "13:02",
+            "EndTime": "13:03",
+            "TotalTime": 1,
+            "Username": "hanh11"
+        },
+        {
+            "PlanId": "P95",
+            "PlanName": "thi",
+            "PlanTopic": "Kỹ Thuật Lập Trình",
+            "Date": "26/03/2026",
+            "StartTime": "13:13",
+            "EndTime": "13:15",
+            "TotalTime": 2,
+            "Username": "hanh11"
+        }
+    ]
+}

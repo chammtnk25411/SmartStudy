@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1006</width>
+    <height>712</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Smart Study - Màn hình chính </string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+border-image: url(&quot;../SmartStudy/images/mwin.png&quot;);
+}
+
+#centralwidget {
+    background: transparent;
+}
+
+QPushButton {
+    background-color: rgba(255, 255, 255, 30); /* Trắng mờ 30% */
+    border: 1px solid rgba(255, 255, 255, 50);
+    color: white;
+    border-radius: 10px;
+}
+QPushButton#pushButtonMotivation {
+    max-width: 300px;      /* Giới hạn chiều ngang */
+    max-height: 60px;      /* Giới hạn chiều cao */
+    border-radius: 15px;   /* Bo góc để nhìn mềm mại */
+    background-color: rgba(255, 255, 255, 60); /* Nền trắng mờ */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>50</y>
+      <width>721</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame{
+background-color: rgba(255,255,255,120);
+border-radius:20px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButtonMotivation">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>500</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>500</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>302</width>
+       <height>62</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+color: rgb(26, 116, 172);
+font-size: 30px;
+font-weight: bold;
+background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>Sống vì chính mình</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblNotification">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>130</y>
+       <width>499</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hiển thị thông báo&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButtonStatistic">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>460</y>
+      <width>261</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(0, 0, 0);
+background:white;
+border-radius:20px;
+border:1px solid #ddd;
+}
+
+QPushButton:hover{
+background:#f2f8ff;
+border:2px solid #4aa3ff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Thống kê mục tiêu</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../images/target.png</normaloff>../images/target.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonRank">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>460</y>
+      <width>271</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(0, 0, 0);
+background:white;
+border-radius:20px;
+border:1px solid #ddd;
+}
+
+QPushButton:hover{
+background:#f2f8ff;
+border:2px solid #4aa3ff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Bảng xếp hạng</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../images/ic_target.png</normaloff>../images/ic_target.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonExit">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>460</y>
+      <width>251</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(0, 0, 0);
+background:white;
+border-radius:20px;
+border:1px solid #ddd;
+}
+
+QPushButton:hover{
+background:#f2f8ff;
+border:2px solid #4aa3ff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Thoát</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../images/ic_exit.png</normaloff>../images/ic_exit.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonTimetable">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>320</y>
+      <width>301</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(0, 0, 0);
+background:white;
+border-radius:20px;
+border:1px solid #ddd;
+}
+
+QPushButton:hover{
+background:#f2f8ff;
+border:2px solid #4aa3ff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Kế hoạch học tập</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../images/ic_schedule.png</normaloff>../images/ic_schedule.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonClock">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>320</y>
+      <width>301</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(0, 0, 0);
+background:white;
+border-radius:20px;
+border:1px solid #ddd;
+}
+
+QPushButton:hover{
+background:#f2f8ff;
+border:2px solid #4aa3ff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Đồng hồ đếm ngược</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../images/ic_clock.png</normaloff>../images/ic_clock.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1006</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

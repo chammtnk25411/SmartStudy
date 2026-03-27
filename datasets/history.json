@@ -1,0 +1,904 @@
+{
+    "datasets": [
+        {
+            "HistoryId": "nhtrang11_14032026_phien1",
+            "Username": "nhtrang11",
+            "Session": 1,
+            "Date": "14/03/2026 08:21",
+            "Duration": "1h 34m 41s",
+            "Result": "Hoàn thành",
+            "Subject": "Lập Trình"
+        },
+        {
+            "HistoryId": "nhtrang11_14032026_phien2",
+            "Username": "nhtrang11",
+            "Session": 2,
+            "Date": "14/03/2026 14:09",
+            "Duration": "0h 45m 38s",
+            "Result": "Hoàn thành",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "nhtrang11_14032026_phien3",
+            "Username": "nhtrang11",
+            "Session": 3,
+            "Date": "14/03/2026 11:57",
+            "Duration": "2h 44m 25s",
+            "Result": "Hoàn thành",
+            "Subject": "Ngữ Văn"
+        },
+        {
+            "HistoryId": "npmai95_14032026_phien4",
+            "Username": "npmai95",
+            "Session": 4,
+            "Date": "14/03/2026 14:23",
+            "Duration": "0h 50m 52s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "đthai73_14032026_phien5",
+            "Username": "đthai73",
+            "Session": 5,
+            "Date": "14/03/2026 19:02",
+            "Duration": "0h 35m 14s",
+            "Result": "Hoàn thành",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "hglan35_14032026_phien6",
+            "Username": "hglan35",
+            "Session": 6,
+            "Date": "14/03/2026 19:04",
+            "Duration": "2h 34m 59s",
+            "Result": "Hoàn thành",
+            "Subject": "Ngữ Văn"
+        },
+        {
+            "HistoryId": "hglan35_14032026_phien7",
+            "Username": "hglan35",
+            "Session": 7,
+            "Date": "14/03/2026 10:34",
+            "Duration": "2h 39m 41s",
+            "Result": "Hoàn thành",
+            "Subject": "Ngữ Văn"
+        },
+        {
+            "HistoryId": "pkgiang95_14032026_phien8",
+            "Username": "pkgiang95",
+            "Session": 8,
+            "Date": "14/03/2026 08:15",
+            "Duration": "0h 41m 29s",
+            "Result": "Hoàn thành",
+            "Subject": "Ngữ Văn"
+        },
+        {
+            "HistoryId": "pkgiang95_14032026_phien9",
+            "Username": "pkgiang95",
+            "Session": 9,
+            "Date": "14/03/2026 20:08",
+            "Duration": "0h 37m 16s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Lập Trình"
+        },
+        {
+            "HistoryId": "dttrinh85_14032026_phien10",
+            "Username": "dttrinh85",
+            "Session": 10,
+            "Date": "14/03/2026 18:13",
+            "Duration": "0h 46m 51s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Vật Lý"
+        },
+        {
+            "HistoryId": "dttrinh85_14032026_phien11",
+            "Username": "dttrinh85",
+            "Session": 11,
+            "Date": "14/03/2026 18:05",
+            "Duration": "1h 38m 59s",
+            "Result": "Hoàn thành",
+            "Subject": "Vật Lý"
+        },
+        {
+            "HistoryId": "dttrinh85_14032026_phien12",
+            "Username": "dttrinh85",
+            "Session": 12,
+            "Date": "14/03/2026 19:47",
+            "Duration": "1h 4m 39s",
+            "Result": "Hoàn thành",
+            "Subject": "Vật Lý"
+        },
+        {
+            "HistoryId": "pkgiang95_15032026_phien13",
+            "Username": "pkgiang95",
+            "Session": 13,
+            "Date": "15/03/2026 10:40",
+            "Duration": "0h 37m 40s",
+            "Result": "Hoàn thành",
+            "Subject": "Lập Trình"
+        },
+        {
+            "HistoryId": "pkgiang95_15032026_phien14",
+            "Username": "pkgiang95",
+            "Session": 14,
+            "Date": "15/03/2026 17:52",
+            "Duration": "0h 37m 51s",
+            "Result": "Hoàn thành",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "ntchau72_15032026_phien15",
+            "Username": "ntchau72",
+            "Session": 15,
+            "Date": "15/03/2026 08:35",
+            "Duration": "0h 52m 48s",
+            "Result": "Hoàn thành",
+            "Subject": "Ngữ Văn"
+        },
+        {
+            "HistoryId": "đthai73_15032026_phien16",
+            "Username": "đthai73",
+            "Session": 16,
+            "Date": "15/03/2026 10:00",
+            "Duration": "0h 52m 4s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Data"
+        },
+        {
+            "HistoryId": "đthai73_15032026_phien17",
+            "Username": "đthai73",
+            "Session": 17,
+            "Date": "15/03/2026 09:28",
+            "Duration": "0h 51m 5s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "nhtrang11_15032026_phien18",
+            "Username": "nhtrang11",
+            "Session": 18,
+            "Date": "15/03/2026 16:56",
+            "Duration": "2h 44m 14s",
+            "Result": "Hoàn thành",
+            "Subject": "Vật Lý"
+        },
+        {
+            "HistoryId": "nhtrang11_15032026_phien19",
+            "Username": "nhtrang11",
+            "Session": 19,
+            "Date": "15/03/2026 14:36",
+            "Duration": "1h 24m 29s",
+            "Result": "Hoàn thành",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "dttrinh85_15032026_phien20",
+            "Username": "dttrinh85",
+            "Session": 20,
+            "Date": "15/03/2026 19:27",
+            "Duration": "2h 35m 50s",
+            "Result": "Hoàn thành",
+            "Subject": "Toán"
+        },
+        {
+            "HistoryId": "dttrinh85_15032026_phien21",
+            "Username": "dttrinh85",
+            "Session": 21,
+            "Date": "15/03/2026 17:39",
+            "Duration": "1h 50m 55s",
+            "Result": "Hoàn thành",
+            "Subject": "Data"
+        },
+        {
+            "HistoryId": "dttrinh85_15032026_phien22",
+            "Username": "dttrinh85",
+            "Session": 22,
+            "Date": "15/03/2026 08:15",
+            "Duration": "0h 49m 54s",
+            "Result": "Hoàn thành",
+            "Subject": "Data"
+        },
+        {
+            "HistoryId": "dttrinh85_16032026_phien23",
+            "Username": "dttrinh85",
+            "Session": 23,
+            "Date": "16/03/2026 20:53",
+            "Duration": "1h 13m 56s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "hglan35_16032026_phien24",
+            "Username": "hglan35",
+            "Session": 24,
+            "Date": "16/03/2026 13:45",
+            "Duration": "0h 46m 19s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Toán"
+        },
+        {
+            "HistoryId": "hglan35_16032026_phien25",
+            "Username": "hglan35",
+            "Session": 25,
+            "Date": "16/03/2026 08:09",
+            "Duration": "0h 35m 41s",
+            "Result": "Hoàn thành",
+            "Subject": "Lập Trình"
+        },
+        {
+            "HistoryId": "pkgiang95_16032026_phien26",
+            "Username": "pkgiang95",
+            "Session": 26,
+            "Date": "16/03/2026 20:19",
+            "Duration": "2h 11m 57s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "ntlan99_16032026_phien27",
+            "Username": "ntlan99",
+            "Session": 27,
+            "Date": "16/03/2026 13:21",
+            "Duration": "0h 56m 6s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "đthai73_16032026_phien28",
+            "Username": "đthai73",
+            "Session": 28,
+            "Date": "16/03/2026 14:49",
+            "Duration": "2h 23m 5s",
+            "Result": "Hoàn thành",
+            "Subject": "Ngữ Văn"
+        },
+        {
+            "HistoryId": "đthai73_16032026_phien29",
+            "Username": "đthai73",
+            "Session": 29,
+            "Date": "16/03/2026 20:28",
+            "Duration": "2h 5m 49s",
+            "Result": "Hoàn thành",
+            "Subject": "Lập Trình"
+        },
+        {
+            "HistoryId": "đthai73_16032026_phien30",
+            "Username": "đthai73",
+            "Session": 30,
+            "Date": "16/03/2026 13:38",
+            "Duration": "2h 13m 47s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "npmai95_16032026_phien31",
+            "Username": "npmai95",
+            "Session": 31,
+            "Date": "16/03/2026 13:43",
+            "Duration": "0h 33m 16s",
+            "Result": "Hoàn thành",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "npmai95_16032026_phien32",
+            "Username": "npmai95",
+            "Session": 32,
+            "Date": "16/03/2026 16:11",
+            "Duration": "2h 34m 14s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Lập Trình"
+        },
+        {
+            "HistoryId": "npmai95_16032026_phien33",
+            "Username": "npmai95",
+            "Session": 33,
+            "Date": "16/03/2026 16:20",
+            "Duration": "1h 0m 18s",
+            "Result": "Hoàn thành",
+            "Subject": "Vật Lý"
+        },
+        {
+            "HistoryId": "hpphuong58_17032026_phien34",
+            "Username": "hpphuong58",
+            "Session": 34,
+            "Date": "17/03/2026 21:05",
+            "Duration": "0h 43m 49s",
+            "Result": "Hoàn thành",
+            "Subject": "Toán"
+        },
+        {
+            "HistoryId": "đthai73_17032026_phien35",
+            "Username": "đthai73",
+            "Session": 35,
+            "Date": "17/03/2026 16:42",
+            "Duration": "0h 36m 25s",
+            "Result": "Hoàn thành",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "đthai73_17032026_phien36",
+            "Username": "đthai73",
+            "Session": 36,
+            "Date": "17/03/2026 20:20",
+            "Duration": "2h 53m 17s",
+            "Result": "Hoàn thành",
+            "Subject": "Data"
+        },
+        {
+            "HistoryId": "npmai95_17032026_phien37",
+            "Username": "npmai95",
+            "Session": 37,
+            "Date": "17/03/2026 22:46",
+            "Duration": "0h 46m 8s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "dttrinh85_17032026_phien38",
+            "Username": "dttrinh85",
+            "Session": 38,
+            "Date": "17/03/2026 17:28",
+            "Duration": "1h 44m 39s",
+            "Result": "Hoàn thành",
+            "Subject": "Toán"
+        },
+        {
+            "HistoryId": "hglan35_17032026_phien39",
+            "Username": "hglan35",
+            "Session": 39,
+            "Date": "17/03/2026 11:53",
+            "Duration": "2h 29m 35s",
+            "Result": "Hoàn thành",
+            "Subject": "Toán"
+        },
+        {
+            "HistoryId": "nhtrang11_17032026_phien40",
+            "Username": "nhtrang11",
+            "Session": 40,
+            "Date": "17/03/2026 17:28",
+            "Duration": "0h 37m 50s",
+            "Result": "Hoàn thành",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "nhtrang11_17032026_phien41",
+            "Username": "nhtrang11",
+            "Session": 41,
+            "Date": "17/03/2026 09:08",
+            "Duration": "0h 54m 32s",
+            "Result": "Hoàn thành",
+            "Subject": "Data"
+        },
+        {
+            "HistoryId": "nhtrang11_17032026_phien42",
+            "Username": "nhtrang11",
+            "Session": 42,
+            "Date": "17/03/2026 08:43",
+            "Duration": "2h 46m 38s",
+            "Result": "Hoàn thành",
+            "Subject": "Lập Trình"
+        },
+        {
+            "HistoryId": "ntlan99_17032026_phien43",
+            "Username": "ntlan99",
+            "Session": 43,
+            "Date": "17/03/2026 22:15",
+            "Duration": "0h 49m 56s",
+            "Result": "Hoàn thành",
+            "Subject": "Toán"
+        },
+        {
+            "HistoryId": "ntlan99_17032026_phien44",
+            "Username": "ntlan99",
+            "Session": 44,
+            "Date": "17/03/2026 21:02",
+            "Duration": "0h 40m 11s",
+            "Result": "Hoàn thành",
+            "Subject": "Ngữ Văn"
+        },
+        {
+            "HistoryId": "ntlan99_17032026_phien45",
+            "Username": "ntlan99",
+            "Session": 45,
+            "Date": "17/03/2026 16:49",
+            "Duration": "2h 34m 50s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "pkgiang95_17032026_phien46",
+            "Username": "pkgiang95",
+            "Session": 46,
+            "Date": "17/03/2026 11:10",
+            "Duration": "2h 52m 26s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Vật Lý"
+        },
+        {
+            "HistoryId": "pkgiang95_17032026_phien47",
+            "Username": "pkgiang95",
+            "Session": 47,
+            "Date": "17/03/2026 21:53",
+            "Duration": "0h 44m 2s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Lập Trình"
+        },
+        {
+            "HistoryId": "pkgiang95_17032026_phien48",
+            "Username": "pkgiang95",
+            "Session": 48,
+            "Date": "17/03/2026 18:45",
+            "Duration": "0h 37m 3s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "dttrinh85_18032026_phien49",
+            "Username": "dttrinh85",
+            "Session": 49,
+            "Date": "18/03/2026 11:37",
+            "Duration": "1h 47m 52s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "hglan35_18032026_phien50",
+            "Username": "hglan35",
+            "Session": 50,
+            "Date": "18/03/2026 13:52",
+            "Duration": "1h 57m 33s",
+            "Result": "Hoàn thành",
+            "Subject": "Lập Trình"
+        },
+        {
+            "HistoryId": "hglan35_18032026_phien51",
+            "Username": "hglan35",
+            "Session": 51,
+            "Date": "18/03/2026 11:27",
+            "Duration": "2h 36m 27s",
+            "Result": "Hoàn thành",
+            "Subject": "Ngữ Văn"
+        },
+        {
+            "HistoryId": "hglan35_18032026_phien52",
+            "Username": "hglan35",
+            "Session": 52,
+            "Date": "18/03/2026 13:29",
+            "Duration": "2h 38m 35s",
+            "Result": "Hoàn thành",
+            "Subject": "Ngữ Văn"
+        },
+        {
+            "HistoryId": "đthai73_18032026_phien53",
+            "Username": "đthai73",
+            "Session": 53,
+            "Date": "18/03/2026 10:36",
+            "Duration": "0h 53m 48s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "đthai73_18032026_phien54",
+            "Username": "đthai73",
+            "Session": 54,
+            "Date": "18/03/2026 21:29",
+            "Duration": "0h 43m 33s",
+            "Result": "Hoàn thành",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "ntchau72_18032026_phien55",
+            "Username": "ntchau72",
+            "Session": 55,
+            "Date": "18/03/2026 21:45",
+            "Duration": "1h 32m 54s",
+            "Result": "Hoàn thành",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "ntchau72_18032026_phien56",
+            "Username": "ntchau72",
+            "Session": 56,
+            "Date": "18/03/2026 08:25",
+            "Duration": "0h 54m 17s",
+            "Result": "Hoàn thành",
+            "Subject": "Lập Trình"
+        },
+        {
+            "HistoryId": "pkgiang95_18032026_phien57",
+            "Username": "pkgiang95",
+            "Session": 57,
+            "Date": "18/03/2026 09:49",
+            "Duration": "2h 35m 36s",
+            "Result": "Hoàn thành",
+            "Subject": "Ngữ Văn"
+        },
+        {
+            "HistoryId": "hpphuong58_18032026_phien58",
+            "Username": "hpphuong58",
+            "Session": 58,
+            "Date": "18/03/2026 20:30",
+            "Duration": "0h 40m 20s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "hpphuong58_18032026_phien59",
+            "Username": "hpphuong58",
+            "Session": 59,
+            "Date": "18/03/2026 15:56",
+            "Duration": "2h 40m 5s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Data"
+        },
+        {
+            "HistoryId": "đthai73_19032026_phien60",
+            "Username": "đthai73",
+            "Session": 60,
+            "Date": "19/03/2026 09:42",
+            "Duration": "0h 32m 29s",
+            "Result": "Hoàn thành",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "pkgiang95_19032026_phien61",
+            "Username": "pkgiang95",
+            "Session": 61,
+            "Date": "19/03/2026 12:40",
+            "Duration": "1h 51m 1s",
+            "Result": "Hoàn thành",
+            "Subject": "Data"
+        },
+        {
+            "HistoryId": "pkgiang95_19032026_phien62",
+            "Username": "pkgiang95",
+            "Session": 62,
+            "Date": "19/03/2026 18:47",
+            "Duration": "0h 41m 16s",
+            "Result": "Hoàn thành",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "pkgiang95_19032026_phien63",
+            "Username": "pkgiang95",
+            "Session": 63,
+            "Date": "19/03/2026 17:13",
+            "Duration": "1h 17m 32s",
+            "Result": "Hoàn thành",
+            "Subject": "Data"
+        },
+        {
+            "HistoryId": "ntlan99_19032026_phien64",
+            "Username": "ntlan99",
+            "Session": 64,
+            "Date": "19/03/2026 12:40",
+            "Duration": "1h 5m 39s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "nhtrang11_19032026_phien65",
+            "Username": "nhtrang11",
+            "Session": 65,
+            "Date": "19/03/2026 14:10",
+            "Duration": "1h 51m 8s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "nhtrang11_19032026_phien66",
+            "Username": "nhtrang11",
+            "Session": 66,
+            "Date": "19/03/2026 19:28",
+            "Duration": "1h 6m 3s",
+            "Result": "Hoàn thành",
+            "Subject": "Toán"
+        },
+        {
+            "HistoryId": "npmai95_19032026_phien67",
+            "Username": "npmai95",
+            "Session": 67,
+            "Date": "19/03/2026 21:53",
+            "Duration": "1h 19m 31s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "npmai95_19032026_phien68",
+            "Username": "npmai95",
+            "Session": 68,
+            "Date": "19/03/2026 18:18",
+            "Duration": "1h 56m 49s",
+            "Result": "Hoàn thành",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "dttrinh85_19032026_phien69",
+            "Username": "dttrinh85",
+            "Session": 69,
+            "Date": "19/03/2026 19:42",
+            "Duration": "0h 31m 38s",
+            "Result": "Hoàn thành",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "dttrinh85_19032026_phien70",
+            "Username": "dttrinh85",
+            "Session": 70,
+            "Date": "19/03/2026 11:29",
+            "Duration": "0h 41m 18s",
+            "Result": "Hoàn thành",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "hglan35_19032026_phien71",
+            "Username": "hglan35",
+            "Session": 71,
+            "Date": "19/03/2026 16:01",
+            "Duration": "0h 30m 57s",
+            "Result": "Hoàn thành",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "hglan35_19032026_phien72",
+            "Username": "hglan35",
+            "Session": 72,
+            "Date": "19/03/2026 22:27",
+            "Duration": "0h 32m 39s",
+            "Result": "Hoàn thành",
+            "Subject": "Data"
+        },
+        {
+            "HistoryId": "hglan35_19032026_phien73",
+            "Username": "hglan35",
+            "Session": 73,
+            "Date": "19/03/2026 14:04",
+            "Duration": "2h 22m 45s",
+            "Result": "Hoàn thành",
+            "Subject": "Lập Trình"
+        },
+        {
+            "HistoryId": "ntchau72_20032026_phien74",
+            "Username": "ntchau72",
+            "Session": 74,
+            "Date": "20/03/2026 12:08",
+            "Duration": "1h 54m 18s",
+            "Result": "Hoàn thành",
+            "Subject": "Vật Lý"
+        },
+        {
+            "HistoryId": "hglan35_20032026_phien75",
+            "Username": "hglan35",
+            "Session": 75,
+            "Date": "20/03/2026 09:58",
+            "Duration": "0h 44m 50s",
+            "Result": "Hoàn thành",
+            "Subject": "Ngữ Văn"
+        },
+        {
+            "HistoryId": "ntlan99_20032026_phien76",
+            "Username": "ntlan99",
+            "Session": 76,
+            "Date": "20/03/2026 18:33",
+            "Duration": "1h 56m 57s",
+            "Result": "Hoàn thành",
+            "Subject": "Vật Lý"
+        },
+        {
+            "HistoryId": "nhtrang11_20032026_phien77",
+            "Username": "nhtrang11",
+            "Session": 77,
+            "Date": "20/03/2026 22:15",
+            "Duration": "0h 58m 54s",
+            "Result": "Hoàn thành",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "nhtrang11_20032026_phien78",
+            "Username": "nhtrang11",
+            "Session": 78,
+            "Date": "20/03/2026 17:44",
+            "Duration": "0h 35m 8s",
+            "Result": "Hoàn thành",
+            "Subject": "Vật Lý"
+        },
+        {
+            "HistoryId": "nhtrang11_20032026_phien79",
+            "Username": "nhtrang11",
+            "Session": 79,
+            "Date": "20/03/2026 10:21",
+            "Duration": "2h 26m 17s",
+            "Result": "Hoàn thành",
+            "Subject": "Vật Lý"
+        },
+        {
+            "HistoryId": "npmai95_21032026_phien80",
+            "Username": "npmai95",
+            "Session": 80,
+            "Date": "21/03/2026 22:15",
+            "Duration": "2h 53m 32s",
+            "Result": "Hoàn thành",
+            "Subject": "Toán"
+        },
+        {
+            "HistoryId": "npmai95_21032026_phien81",
+            "Username": "npmai95",
+            "Session": 81,
+            "Date": "21/03/2026 10:45",
+            "Duration": "2h 54m 44s",
+            "Result": "Hoàn thành",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "ntlan99_21032026_phien82",
+            "Username": "ntlan99",
+            "Session": 82,
+            "Date": "21/03/2026 12:02",
+            "Duration": "0h 48m 31s",
+            "Result": "Hoàn thành",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "ntlan99_21032026_phien83",
+            "Username": "ntlan99",
+            "Session": 83,
+            "Date": "21/03/2026 16:42",
+            "Duration": "0h 32m 53s",
+            "Result": "Hoàn thành",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "đahanh69_21032026_phien84",
+            "Username": "đahanh69",
+            "Session": 84,
+            "Date": "21/03/2026 17:42",
+            "Duration": "1h 22m 25s",
+            "Result": "Hoàn thành",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "đahanh69_21032026_phien85",
+            "Username": "đahanh69",
+            "Session": 85,
+            "Date": "21/03/2026 13:23",
+            "Duration": "2h 42m 22s",
+            "Result": "Hoàn thành",
+            "Subject": "Vật Lý"
+        },
+        {
+            "HistoryId": "đahanh69_21032026_phien86",
+            "Username": "đahanh69",
+            "Session": 86,
+            "Date": "21/03/2026 09:52",
+            "Duration": "1h 27m 0s",
+            "Result": "Hoàn thành",
+            "Subject": "Toán"
+        },
+        {
+            "HistoryId": "hglan35_21032026_phien87",
+            "Username": "hglan35",
+            "Session": 87,
+            "Date": "21/03/2026 13:21",
+            "Duration": "2h 25m 10s",
+            "Result": "Hoàn thành",
+            "Subject": "Hóa Học"
+        },
+        {
+            "HistoryId": "pkgiang95_21032026_phien88",
+            "Username": "pkgiang95",
+            "Session": 88,
+            "Date": "21/03/2026 14:11",
+            "Duration": "0h 38m 26s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "ntchau72_21032026_phien89",
+            "Username": "ntchau72",
+            "Session": 89,
+            "Date": "21/03/2026 18:15",
+            "Duration": "2h 20m 13s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "ntchau72_21032026_phien90",
+            "Username": "ntchau72",
+            "Session": 90,
+            "Date": "21/03/2026 09:54",
+            "Duration": "2h 58m 9s",
+            "Result": "Hoàn thành",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "ntchau72_21032026_phien91",
+            "Username": "ntchau72",
+            "Session": 91,
+            "Date": "21/03/2026 18:27",
+            "Duration": "0h 37m 47s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "đthai73_21032026_phien92",
+            "Username": "đthai73",
+            "Session": 92,
+            "Date": "21/03/2026 21:41",
+            "Duration": "2h 54m 41s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "đthai73_21032026_phien93",
+            "Username": "đthai73",
+            "Session": 93,
+            "Date": "21/03/2026 11:23",
+            "Duration": "1h 15m 43s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "đthai73_21032026_phien94",
+            "Username": "đthai73",
+            "Session": 94,
+            "Date": "21/03/2026 15:01",
+            "Duration": "0h 31m 53s",
+            "Result": "Hoàn thành",
+            "Subject": "Vật Lý"
+        },
+        {
+            "HistoryId": "dttrinh85_21032026_phien95",
+            "Username": "dttrinh85",
+            "Session": 95,
+            "Date": "21/03/2026 18:20",
+            "Duration": "1h 51m 47s",
+            "Result": "Hoàn thành",
+            "Subject": "Toán"
+        },
+        {
+            "HistoryId": "hpphuong58_21032026_phien96",
+            "Username": "hpphuong58",
+            "Session": 96,
+            "Date": "21/03/2026 19:02",
+            "Duration": "1h 26m 17s",
+            "Result": "Hoàn thành",
+            "Subject": "AI"
+        },
+        {
+            "HistoryId": "hpphuong58_21032026_phien97",
+            "Username": "hpphuong58",
+            "Session": 97,
+            "Date": "21/03/2026 16:43",
+            "Duration": "0h 36m 51s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Lập Trình"
+        },
+        {
+            "HistoryId": "nhtrang11_21032026_phien98",
+            "Username": "nhtrang11",
+            "Session": 98,
+            "Date": "21/03/2026 10:54",
+            "Duration": "0h 41m 21s",
+            "Result": "Hoàn thành",
+            "Subject": "Tiếng Anh"
+        },
+        {
+            "HistoryId": "hanh11_hack_phien1",
+            "Username": "hanh11",
+            "Session": 99,
+            "Date": "21/03/2026 10:00",
+            "Duration": "0h 0m 2s",
+            "Result": "Kết thúc sớm",
+            "Subject": "Tự học"
+        },
+        {
+            "HistoryId": "tram_24032026_phien1",
+            "Username": "tram",
+            "Session": 1,
+            "Date": "24/03/2026 08:28",
+            "Duration": "0h 0m 5s",
+            "Result": "Hoàn thành",
+            "Subject": "Tự học"
+        }
+    ]
+}

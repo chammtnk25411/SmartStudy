@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1070</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Smart Study - Bảng xếp hạng</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"># Dán đoạn này đè lên phần setStyleSheet cũ
+        self.MainWindow.setStyleSheet(f&quot;&quot;&quot;
+            /* Cửa sổ chính: Nền trắng mặc định, chữ đen */
+            QMainWindow {{
+                background-color: white;
+                color: black;
+                font-family: &quot;&quot;; /* Xóa bỏ custom font, dùng font mặc định của Qt */
+            }}
+
+            /* Bảng xếp hạng / Danh sách (QListWidget, QTableWidget) */
+            QListWidget, QTableWidget {{
+                background-color: white;
+                color: black;
+                border: 1px solid #C0C0C0; /* Viền xám mỏng mặc định */
+                border-radius: 0px; /* Góc vuông, không bo tròn */
+            }}
+
+            /* Từng dòng trong danh sách */
+            QListWidget::item, QTableWidget::item {{
+                color: black;
+                background-color: transparent;
+                padding: 5px; /* Giãn cách một chút cho dễ đọc */
+                border-bottom: 1px solid #F0F0F0; /* Dòng kẻ mờ ngăn cách */
+            }}
+
+            /* Khi di chuột vào dòng */
+            QListWidget::item:hover, QTableWidget::item:hover {{
+                background-color: #F2F2F2; /* Màu xám rất nhạt khi hover */
+            }}
+
+            /* Khi dòng được chọn (Selection) */
+            QListWidget::item:selected, QTableWidget::item:selected {{
+                color: white;
+                background-color: #0078D7; /* Màu xanh dương mặc định của Windows */
+            }}
+
+            /* Mấy cái khác cho nó đồng bộ 'phèn' luôn */
+            QLabel {{
+                color: black;
+                background: transparent;
+            }}
+            
+            QPushButton {{
+                background-color: #F0F0F0;
+                color: black;
+                border: 1px solid #A0A0A0;
+                border-radius: 2px; /* Bo góc rất nhẹ của nút mặc định */
+                padding: 4px 8px;
+            }}
+            
+            QPushButton:hover {{
+                background-color: #E1E1E1;
+            }}
+            
+            QPushButton:pressed {{
+                background-color: #C1C1C1;
+            }}
+
+            QLineEdit {{
+                color: black;
+                background-color: white;
+                border: 1px solid #A0A0A0;
+                border-radius: 0px;
+                padding: 2px;
+            }}
+        &quot;&quot;&quot;)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButtonBack">
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 251, 183);</string>
+      </property>
+      <property name="text">
+       <string>Quay lại</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../images/back.jpg</normaloff>../images/back.jpg</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">font: 75 33pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>BẢNG VÀNG TOP 10 HỌC BÁ</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListWidget" name="listWidgetRank">
+          <property name="maximumSize">
+           <size>
+            <width>700</width>
+            <height>500</height>
+           </size>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QListWidget {
+background-color: rgba(255, 255, 255, 90);
+border: 1px solid rgba(255, 255, 255, 50);
+border-radius: 10px;
+font-size: 22px;
+}
+QListWidget::item {
+    min-height: 45px; 
+    padding-left: 10px; 
+    border-bottom: 1px solid rgba(255, 255, 255, 50);
+}</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButtonRankMe">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>700</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(234, 144, 11);
+color: rgb(255, 229, 153);
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;</string>
+          </property>
+          <property name="text">
+           <string>Xếp hạng</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1070</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

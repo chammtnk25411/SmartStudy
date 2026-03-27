@@ -1,0 +1,276 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Admin",
+            "username": "admin",
+            "email": "admin@gmail.com",
+            "password": "123456",
+            "role": "admin"
+        },
+        {
+            "id": 1,
+            "name": "Ngô Phương Mai",
+            "username": "npmai95",
+            "email": "ngophuongmai@gmail.com",
+            "password": "558748",
+            "role": "user"
+        },
+        {
+            "id": 2,
+            "name": "Đỗ Anh Hạnh",
+            "username": "đahanh69",
+            "email": "doanhhanh@gmail.com",
+            "password": "760306",
+            "role": "user"
+        },
+        {
+            "id": 3,
+            "name": "Nguyễn Tuấn Lan",
+            "username": "ntlan99",
+            "email": "nguyentuanlan@gmail.com",
+            "password": "585812",
+            "role": "user"
+        },
+        {
+            "id": 4,
+            "name": "Dương Thanh Trinh",
+            "username": "dttrinh85",
+            "email": "duongthanhtrinh@gmail.com",
+            "password": "286645",
+            "role": "user"
+        },
+        {
+            "id": 5,
+            "name": "Nguyễn Thanh Châu",
+            "username": "ntchau72",
+            "email": "nguyenthanhchau@gmail.com",
+            "password": "066422",
+            "role": "user"
+        },
+        {
+            "id": 6,
+            "name": "Phan Khánh Giang",
+            "username": "pkgiang95",
+            "email": "phankhanhgiang@gmail.com",
+            "password": "939324",
+            "role": "user"
+        },
+        {
+            "id": 7,
+            "name": "Ngô Hoài Trang",
+            "username": "nhtrang11",
+            "email": "ngohoaitrang@gmail.com",
+            "password": "712773",
+            "role": "user"
+        },
+        {
+            "id": 8,
+            "name": "Đỗ Tuấn Hải",
+            "username": "đthai73",
+            "email": "dotuanhai@gmail.com",
+            "password": "205136",
+            "role": "user"
+        },
+        {
+            "id": 9,
+            "name": "Hồ Gia Lan",
+            "username": "hglan35",
+            "email": "hogialan@gmail.com",
+            "password": "417144",
+            "role": "user"
+        },
+        {
+            "id": 10,
+            "name": "Hoàng Phương Phương",
+            "username": "hpphuong58",
+            "email": "hoangphuongphuong@gmail.com",
+            "password": "709374",
+            "role": "user"
+        },
+        {
+            "id": 11,
+            "name": "Trần Thị Hạnh",
+            "username": "tthanh25",
+            "email": "tranthihanh@gmail.com",
+            "password": "490644",
+            "role": "user"
+        },
+        {
+            "id": 12,
+            "name": "Hoàng Minh Phương",
+            "username": "hmphuong15",
+            "email": "hoangminhphuong@gmail.com",
+            "password": "533274",
+            "role": "user"
+        },
+        {
+            "id": 13,
+            "name": "Phan Hữu Giang",
+            "username": "phgiang41",
+            "email": "phanhuugiang@gmail.com",
+            "password": "280780",
+            "role": "user"
+        },
+        {
+            "id": 14,
+            "name": "Phạm Thanh Phương",
+            "username": "ptphuong83",
+            "email": "phamthanhphuong@gmail.com",
+            "password": "254389",
+            "role": "user"
+        },
+        {
+            "id": 15,
+            "name": "Bùi Hữu Hùng",
+            "username": "bhhung23",
+            "email": "buihuuhung@gmail.com",
+            "password": "855659",
+            "role": "user"
+        },
+        {
+            "id": 16,
+            "name": "Huỳnh Khánh Hải",
+            "username": "hkhai63",
+            "email": "huynhkhanhhai@gmail.com",
+            "password": "324413",
+            "role": "user"
+        },
+        {
+            "id": 17,
+            "name": "Hoàng Thị Linh",
+            "username": "htlinh14",
+            "email": "hoangthilinh@gmail.com",
+            "password": "542790",
+            "role": "user"
+        },
+        {
+            "id": 18,
+            "name": "Phạm Khánh Duy",
+            "username": "pkduy26",
+            "email": "phamkhanhduy@gmail.com",
+            "password": "132452",
+            "role": "user"
+        },
+        {
+            "id": 19,
+            "name": "Bùi Thị Quân",
+            "username": "btquan44",
+            "email": "buithiquan@gmail.com",
+            "password": "770023",
+            "role": "user"
+        },
+        {
+            "id": 20,
+            "name": "Lê Thị Duy",
+            "username": "ltduy63",
+            "email": "lethiduy@gmail.com",
+            "password": "835232",
+            "role": "user"
+        },
+        {
+            "id": 21,
+            "name": "Phạm Thị Lan",
+            "username": "ptlan45",
+            "email": "phamthilan@gmail.com",
+            "password": "484012",
+            "role": "user"
+        },
+        {
+            "id": 22,
+            "name": "Dương Thị Hùng",
+            "username": "dthung72",
+            "email": "duongthihung@gmail.com",
+            "password": "539520",
+            "role": "user"
+        },
+        {
+            "id": 23,
+            "name": "Huỳnh Thị Trinh",
+            "username": "httrinh30",
+            "email": "huynhthitrinh@gmail.com",
+            "password": "366588",
+            "role": "user"
+        },
+        {
+            "id": 24,
+            "name": "Võ Phương Hạnh",
+            "username": "vphanh83",
+            "email": "vophuonghanh@gmail.com",
+            "password": "104617",
+            "role": "user"
+        },
+        {
+            "id": 25,
+            "name": "Bùi Hoài Long",
+            "username": "bhlong82",
+            "email": "buihoailong@gmail.com",
+            "password": "191374",
+            "role": "user"
+        },
+        {
+            "id": 26,
+            "name": "Huỳnh Gia Châu",
+            "username": "hgchau72",
+            "email": "huynhgiachau@gmail.com",
+            "password": "409815",
+            "role": "user"
+        },
+        {
+            "id": 27,
+            "name": "Nguyễn Khánh Hà",
+            "username": "nkha66",
+            "email": "nguyenkhanhha@gmail.com",
+            "password": "380146",
+            "role": "user"
+        },
+        {
+            "id": 28,
+            "name": "Nguyễn Khánh Ngân",
+            "username": "nkngan35",
+            "email": "nguyenkhanhngan@gmail.com",
+            "password": "823971",
+            "role": "user"
+        },
+        {
+            "id": 29,
+            "name": "Bùi Thị Bảo",
+            "username": "btbao77",
+            "email": "buithibao@gmail.com",
+            "password": "965355",
+            "role": "user"
+        },
+        {
+            "id": 30,
+            "name": "Huỳnh Quang Bảo",
+            "username": "hqbao79",
+            "email": "huynhquangbao@gmail.com",
+            "password": "224553",
+            "role": "user"
+        },
+        {
+            "id": 31,
+            "name": "trần",
+            "username": "ha",
+            "email": "ha@",
+            "password": "12",
+            "role": "user"
+        },
+        {
+            "id": 32,
+            "name": "Phạm Hồ Hồng Hạnh",
+            "username": "hanh11",
+            "email": "hanh@gmail.com",
+            "password": "11032007",
+            "role": "user"
+        },
+        {
+            "id": 33,
+            "name": "Hồ Lê Thuỳ Trâm",
+            "username": "tram",
+            "email": "thuytramwt@gmail.com",
+            "password": "thuytram12345",
+            "role": "user"
+        }
+    ]
+}
