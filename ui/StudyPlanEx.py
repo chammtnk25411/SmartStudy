@@ -1,4 +1,6 @@
 import json
+import os
+import sys
 from PyQt6.QtCore import Qt, QDate, QTime
 from PyQt6.QtGui import QIcon
 from PyQt6.QtWidgets import QListWidgetItem, QTableWidgetItem
@@ -10,6 +12,9 @@ from models.plans import Plans
 from models.topics import Topics
 from ui.StudyPlan import Ui_MainWindow
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from path_helper import get_path
+
 
 class StudyPlanEx(Ui_MainWindow):
 
@@ -18,13 +23,13 @@ class StudyPlanEx(Ui_MainWindow):
 
         self.currentUser = username
 
-        file_name_topic = "../datasets/Topics.json"
+        topics_path = get_path("datasets/Topics.json")
         self.ltp = Topics()
-        self.ltp.import_json(file_name_topic)
+        self.ltp.import_json(topics_path)
 
-        file_name_plan = "../datasets/StudyPlans.json"
+        plans_path = get_path("datasets/StudyPlans.json")
         self.lp = Plans()
-        self.lp.import_json(file_name_plan)
+        self.lp.import_json(plans_path)
 
         self.selectedPlan = None
 
@@ -43,10 +48,12 @@ class StudyPlanEx(Ui_MainWindow):
         self.timeEdit_end.setDisplayFormat("HH:mm")
 
         self.setupSignalAndSlot()
-        self.MainWindow.setStyleSheet("""
-                    QMainWindow {
-                        border-image: url('../images/may.jpg') 0 0 0 0 stretch stretch;
-                    }
+
+        bg = get_path("images/may.jpg")
+        self.MainWindow.setStyleSheet(f"""
+                    QMainWindow {{
+                        border-image: url({bg}) 0 0 0 0 stretch stretch;
+                    }}
                 """)
 
     def setupSignalAndSlot(self):
@@ -69,13 +76,14 @@ class StudyPlanEx(Ui_MainWindow):
         center = self.MainWindow.screen().availableGeometry().center()
         frame.moveCenter(center)
         self.MainWindow.move(frame.topLeft())
-        self.pushButtonBack.setIcon(QIcon("../images/back.jpg"))
-        self.pushButtonAddTopic.setIcon(QIcon("../images/plus.png"))
-        self.pushButton_deleteTopic.setIcon(QIcon("../images/bin.png"))
-        self.pushButtonNew.setIcon(QIcon("../images/plus.png"))
-        self.pushButtonSave.setIcon(QIcon("../images/save.png"))
-        self.pushButtonUpdate.setIcon(QIcon("../images/update.png"))
-        self.pushButtonRemove.setIcon(QIcon("../images/bin.png"))
+
+        self.pushButtonBack.setIcon(QIcon(get_path("images/back.jpg")))
+        self.pushButtonAddTopic.setIcon(QIcon(get_path("images/plus.png")))
+        self.pushButton_deleteTopic.setIcon(QIcon(get_path("images/bin.png")))
+        self.pushButtonNew.setIcon(QIcon(get_path("images/plus.png")))
+        self.pushButtonSave.setIcon(QIcon(get_path("images/save.png")))
+        self.pushButtonUpdate.setIcon(QIcon(get_path("images/update.png")))
+        self.pushButtonRemove.setIcon(QIcon(get_path("images/bin.png")))
 
     def display_topics(self):
         self.listWidgetTopic.clear()
@@ -180,7 +188,9 @@ class StudyPlanEx(Ui_MainWindow):
         new_topic = Topic(topic_id, topic_name, self.currentUser)
 
         self.ltp.save_item(new_topic)
-        self.ltp.import_json("../datasets/Topics.json")
+
+        topics_path = get_path("datasets/Topics.json")
+        self.ltp.import_json(topics_path)
         self.display_topics()
 
         QMessageBox.information(self.MainWindow, "Thành công", "Đã thêm Môn học !")
@@ -218,7 +228,8 @@ class StudyPlanEx(Ui_MainWindow):
 
         if reply == QMessageBox.StandardButton.Yes:
             self.ltp.remove_item(topic.TopicId)
-            self.ltp.import_json("../datasets/Topics.json")
+            topics_path = get_path("datasets/Topics.json")
+            self.ltp.import_json(topics_path)
             self.display_topics()
 
     def filter_plans_by_topic(self, item):
@@ -277,7 +288,7 @@ class StudyPlanEx(Ui_MainWindow):
         self.lineEdit_Name.setFocus()
 
     def validate_plan_data(self, plan_name, plan_topic):
-        #Kiểm tra tính hợp lệ của dữ liệu kế hoạch
+        # Kiểm tra tính hợp lệ của dữ liệu kế hoạch
         if not plan_name or plan_name.strip() == "":
             QMessageBox.warning(self.MainWindow, "Cảnh báo", "Vui lòng nhập tên kế hoạch!")
             return False
@@ -324,7 +335,8 @@ class StudyPlanEx(Ui_MainWindow):
                 return
 
         self.lp.save_item(plan)
-        self.lp.import_json("../datasets/StudyPlans.json")
+        plans_path = get_path("datasets/StudyPlans.json")
+        self.lp.import_json(plans_path)
         self.display_plans()
 
         QMessageBox.information(self.MainWindow, "Thành công", "Đã thêm kế hoạch học mới!")
@@ -375,7 +387,8 @@ class StudyPlanEx(Ui_MainWindow):
             # Thêm kế hoạch mới
             self.lp.save_item(updated_plan)
             # Reload dữ liệu
-            self.lp.import_json("../datasets/StudyPlans.json")
+            plans_path = get_path("datasets/StudyPlans.json")
+            self.lp.import_json(plans_path)
             self.display_plans()
 
             # Reset form SAU KHI đã hiển thị lại dữ liệu
@@ -400,7 +413,8 @@ class StudyPlanEx(Ui_MainWindow):
             plan_id_to_remove = self.selectedPlan.PlanId
 
             self.lp.remove_item(plan_id_to_remove)
-            self.lp.import_json("../datasets/StudyPlans.json")
+            plans_path = get_path("datasets/StudyPlans.json")
+            self.lp.import_json(plans_path)
             self.display_plans()
 
             # Reset form SAU KHI đã hiển thị lại dữ liệu

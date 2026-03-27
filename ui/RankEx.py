@@ -1,10 +1,13 @@
 import json
 import os
-
+import sys
 from PyQt6.QtGui import QIcon
 from PyQt6.QtWidgets import QMainWindow, QListWidgetItem
 from PyQt6.QtCore import Qt
 from ui.Rank import Ui_MainWindow
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from path_helper import get_path
 
 
 class Rank_MainWindowEx(QMainWindow, Ui_MainWindow):
@@ -15,13 +18,14 @@ class Rank_MainWindowEx(QMainWindow, Ui_MainWindow):
     def setupUi(self, MainWindow):
         super().setupUi(MainWindow)
         self.MainWindow = MainWindow
+        self.MainWindow.setFixedSize(1070, 700)  # Khóa kích thước
         self.pushButtonBack.clicked.connect(self.processBack)
         self.load_top_10_leaderboard()
 
     def showWindow(self):
         self.MainWindow.show()
-        self.pushButtonBack.setIcon(QIcon("../images/back.jpg"))
-        bg = "../images/blusky.png"
+        self.pushButtonBack.setIcon(QIcon(get_path("images/back.jpg")))
+        bg = get_path("images/blusky.png")
         self.MainWindow.setStyleSheet(f"""
                 QMainWindow#MainWindow {{
                     border-image: url({bg}) 0 0 0 0 stretch stretch;
@@ -34,14 +38,15 @@ class Rank_MainWindowEx(QMainWindow, Ui_MainWindow):
 
     def load_top_10_leaderboard(self):
         try:
-            user_path = '../datasets/user.json'
+            user_path = get_path("datasets/user.json")
             users = []
             if os.path.exists(user_path):
                 with open(user_path, 'r', encoding='utf-8') as f:
                     users = json.load(f).get("users", [])
             user_scores = {u['username'].lower(): {"name": u['name'], "minutes": 0, "username": u['username']} for u in
                            users}
-            history_path = '../datasets/history.json'
+
+            history_path = get_path("datasets/history.json")
             if os.path.exists(history_path):
                 with open(history_path, 'r', encoding='utf-8') as f:
                     data_history = json.load(f)
@@ -67,11 +72,11 @@ class Rank_MainWindowEx(QMainWindow, Ui_MainWindow):
                     your_rank = index + 1
                     your_hours = round(user["minutes"] / 60, 1)
                     break
-            if hasattr(self, 'pushButtonRankMe'):
+            if hasattr(self, 'labelRankMe'):
                 if your_rank > 0 and your_hours > 0:
-                    self.pushButtonRankMe.setText(f"🏅 Xếp hạng của bạn: TOP {your_rank} ({your_hours} giờ)")
+                    self.labelRankMe.setText(f"🏅 Xếp hạng của bạn: TOP {your_rank} ({your_hours} giờ)")
                 else:
-                    self.pushButtonRankMe.setText("🏅 Bạn chưa có dữ liệu học tập. Hãy bắt đầu học ngay!")
+                    self.labelRankMe.setText("🏅 Bạn chưa có dữ liệu học tập. Hãy bắt đầu học ngay!")
             if hasattr(self, 'listWidgetRank'):
                 self.listWidgetRank.clear()
                 for i in range(10):
@@ -97,8 +102,8 @@ class Rank_MainWindowEx(QMainWindow, Ui_MainWindow):
                     self.listWidgetRank.addItem(item)
         except Exception as e:
             print("Lỗi Load Bảng xếp hạng:", e)
+
     def processBack(self):
         if hasattr(self, 'main_window_ref') and self.main_window_ref:
             self.main_window_ref.show()
-
         self.MainWindow.close()
